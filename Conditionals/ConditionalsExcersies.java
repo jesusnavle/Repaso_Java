@@ -16,7 +16,28 @@ public class ConditionalsExcersies {
 
         // 2. Declara dos números y muestra cuál es mayor, o si son iguales.
 
+        var num1 = 15;
+        var num2 = 15;
+
+        if (num1 > num2){
+            System.out.println("el número mayor es: " + num1);
+        } else if (num1 < num2){
+            System.out.println("En múmero mayor es: " + num2);
+        } else if (num1 == num2){
+            System.out.println("Los números son iguales");
+        }
+
         // 3. Dado un número, verifica si es positivo, negativo o cero.
+
+        num1 = 1;
+
+        if (num1 < 0){
+            System.out.println("El numero es negativo.");
+        }else if(num1 > 0){
+            System.out.println("El númereo es positivo");
+        }else if(num1 == 0){
+            System.out.println("El número es 0");
+        }
 
         // 4. Crea un programa que diga si un número es par o impar.
 
